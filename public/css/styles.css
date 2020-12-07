@@ -1,0 +1,73 @@
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+footer {
+  color: #888;
+  border-top: 1px solid #eee;
+  margin-top: 1rem;
+  padding: 1rem 0;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+header a {
+  color: #888;
+  margin-right: 1rem;
+  text-decoration: none;
+
+}
+
+.portrait {
+width: 250px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888;
+  border-radius: 5px;
+  background: #888;
+  color: #fff;
+  padding: 0.5rem;
+  transition: all 0.5s ease-in;
+  outline: none;
+}
+
+button:hover {
+  background: rgb(77, 75, 75);
+  transition: all 0.5s ease-out;
+}
+
+.error-message {
+  color: red;
+  display: inline;
+  padding: 0.5rem;
+  border: 1px solid red;
+  border-radius: 5px;
+}

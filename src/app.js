@@ -8,6 +8,8 @@ const app = express()
 
 require('dotenv').config()
 
+const PORT = process.env.PORT || 3000
+
 // Define paths for express config
 const publicDirectoryPath = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
@@ -67,8 +69,6 @@ app.get('/weather', (req, res) => {
       })
     })
   })
-
-
 })
 
 app.get('/help/*', (req, res) => {
@@ -86,8 +86,6 @@ app.get('*', (req, res) => {
     name: "Leekers"
   })
 })
-
-const PORT = process.env.PORT || 3000
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)

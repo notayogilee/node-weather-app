@@ -8,17 +8,17 @@ This is a simple weather website to practice nodejs and calls to API. We first c
 
 ## 3. In the .env file, you will need to add:
 
-    from [weatherstack](https://weatherstack.com):
+  from [weatherstack](https://weatherstack.com):
 
-    WEATHERSTACK_ACCESS_KEY=<YOUR_WEATHERSTACK_ACCESS_KEY>
+  WEATHERSTACK_ACCESS_KEY=<YOUR_WEATHERSTACK_ACCESS_KEY>
 
-    from [mapbox](https://www.mapbox.com):
+  from [mapbox](https://www.mapbox.com):
 
-    GEOCODE_ACCESS_TOKEN=<YOUR_MAPBOX_ACCESS_TOKEN>
+  GEOCODE_ACCESS_TOKEN=<YOUR_MAPBOX_ACCESS_TOKEN>
 
 ## 4. In your terminal: 
-   -npm run start to run the app 
+  -npm run start to run the app 
 
-    or
+  or
 
-   -npm run dev to run the app with nodemon if you will make some changes
+  -npm run dev to run the app with nodemon if you will make some changes

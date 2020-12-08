@@ -1,4 +1,4 @@
-# Weather Website using Nodejs
+# Weather website using Nodejs
 
 This is a simple weather website to practice nodejs and calls to API. We first call mapbox geocoder with a location and get the latitude/logitude coordinates to use in the weaterstack API. This is unnecessary as the weatherstack API can take a location directly, but it was to practice chaining API calls.
 

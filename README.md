@@ -9,9 +9,11 @@ This is a simple weather website to practice nodejs and calls to API. We first c
 3. In the .env file, you will need to add:
 
 from https://weatherstack.com/:
+
 WEATHERSTACK_ACCESS_KEY=<YOUR_WEATHERSTACK_ACCESS_KEY>
 
 from https://www.mapbox.com/:
+
 GEOCODE_ACCESS_TOKEN=<YOUR_MAPBOX_ACCESS_TOKEN>
 
 4. In your terminal: 

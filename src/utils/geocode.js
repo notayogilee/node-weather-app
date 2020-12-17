@@ -5,13 +5,14 @@ const geocode = (address, cb) => {
 
   request({ url, json: true }, (error, response) => {
     const { features } = response.body
+
     if (error) {
       // do not need to declare data as undefined
       cb('Unable to connect to loacation services!', undefined)
-    } else if (features.length === 0) {
+    } else if (!features) {
       cb('Location not found. Try another search.', undefined)
     } else {
-      cb(undefined, {
+      cb(null, {
         latitude: features[0].center[1],
         longitude: features[0].center[0],
         location: features[0].place_name
